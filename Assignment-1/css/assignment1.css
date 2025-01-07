@@ -1,0 +1,34 @@
+html {
+    background-color: #23746e;
+    color:#ffffff;
+}
+
+h1{
+display:inline-block;
+    color:#b1e8ea;
+}
+
+h3 {
+    display:inline-block;
+    margin-left: 40%
+}
+
+a:link {
+    color: white;
+}
+
+img {
+    height:200px;
+    float:right;
+}
+
+#photo {
+    min-width:200px;
+    display: inline-block;
+    margin: 10px
+}
+
+#text {
+    max-width:300px;
+    display: inline-block;
+}
