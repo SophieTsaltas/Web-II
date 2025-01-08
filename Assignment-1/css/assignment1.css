@@ -20,7 +20,7 @@ a:link {
 img {
     height:200px;
     float:right;
-    margin: 40px;
+    margin: 0 40px;
 }
 
 #photo {
@@ -32,4 +32,8 @@ img {
 #text {
     max-width:300px;
     display: inline-block;
+}
+
+#maincontainer {
+    background-color: #135a55;
 }
