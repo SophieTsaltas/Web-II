@@ -20,13 +20,13 @@ a:link {
 img {
     height:200px;
     float:right;
-    margin:10px;
+    margin: 10px
 }
 
 #photo {
     min-width:200px;
     display: inline-block;
-    margin: 10px
+    
 }
 
 #text {
