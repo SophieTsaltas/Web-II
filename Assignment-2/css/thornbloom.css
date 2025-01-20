@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.logo {
+    width:180px;
+    
+}
+
+a{
+    text-decoration:none;
+    color:#191d4f;
+    padding:8px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    gap:16px;
+    align-items:center;
+}
+header {
+    background-image: url(../thornbloom-website/images/banner-img.jpg);
+    background-size:cover;
+    height:400px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size:48px
+}
+
+button {
+    text-decoration: none;
+    border:none;
+    font-family: serif;
+    background-color: #191d4f;
+    color:white;
+    padding:10px;
+    max-width:100px;
+}
+
+.invert{
+    text-decoration: none;
+    font-family: serif;
+    background-color: white;
+    color:#191d4f;
+    padding:10px;
+    max-width:100px;
+    border:#191d4f solid;
+}
+
+.welcome-home {
+    display:flex;
+    flex-direction: column;
+    align-items:center
+}
+
+.box1,.box2,.box3,.box4{
+    display:flex;
+    margin: 10vw;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+img {
+    max-width: 50vw;
+    margin: 15px;
+}
+
+.text1,.text3 {
+    text-align: right;
+}
+
+h2 {
+    color:#191d4f;
+    margin:10px;
+}
+
+h3 {
+    color:#191d4f;
+    margin: 10px 0;
+}
+
+footer{
+    background-color: #eee;
+    font-size:small;
+    display:flex;
+    justify-content:space-between;
+}
+
+.afterfoot{
+    background-color: #eee;
+    font-size: small;
+    margin: 0 auto;
+    text-align: center;
+}
+
