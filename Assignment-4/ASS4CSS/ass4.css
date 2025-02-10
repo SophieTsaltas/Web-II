@@ -1,0 +1,228 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+h1{
+    font-family:Aoboshi One, serif;
+    font-size:64px;
+}
+
+h2 {
+    font-family:Aoboshi One, serif;
+    font-size:32px;
+}
+
+h3 {
+    font-family:Aoboshi One, serif;
+    font-size:20px;
+}
+
+h4 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0;
+    
+}
+
+.view {
+   font-family: Inter, sans-serif;
+    font-size:24px;
+    font-weight: 300;
+}
+
+.proddesc {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.price {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Navigation*/
+
+header {
+    display:flex;
+    padding: 40px 60px;
+    align-items:center;
+    background-color: #FFFFFF;
+}
+
+.left-items{
+    display:flex;
+    width: 100%;
+}
+
+.logo{
+    width:127px;
+    height:40px;
+}
+
+.right-items{
+    display:flex;
+    gap: 24px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+/*Hero Banner*/
+
+.hero {
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+    justify-content: center;
+    align-items: center;
+    height:548px;
+    padding: 0 16px;
+    background-image: url(../ASS4ASSETS/banners/hero-bg.jpg);
+    background-size: cover;
+    color:#FFFFFF
+}
+
+.button {
+    text-decoration: none;
+    padding: 8px 24px;
+    background-color: #FFc900;
+    color: #000000;
+    font-family:Inter,sans-serif;
+    font-weight:500;
+    font-size:24px
+}
+
+/*Products Men*/
+
+.prodmen {
+    display:flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    color: #000000;
+}
+
+.navmen {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prods {
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+}
+
+.prodimg1,.prodimg2, .prodimg3, .prodimg4 {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 262px;
+    height: 456px;
+}
+
+
+/*Products Women*/
+
+.prodmen {
+    display:flex;
+    flex-direction: column;
+    padding: 50px 200px;
+    color: #000000;
+}
+
+.navmen {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prods {
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+}
+
+.prodimg1,.prodimg2, .prodimg3, .prodimg4 {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 262px;
+    height: 456px;
+}
+
+/* Yellow Banner*/
+
+.yellow {
+    display:flex;
+    flex-direction: column;
+    margin: 50px 200px;
+    height:380px;
+    width: 958px;
+    color: #000000;
+    background-image: url(../ASS4ASSETS/banners/sale-bg.jpg);
+    background-size:cover;
+    justify-content: center;
+    padding: 0 0 0 120px;
+    gap: 10px
+}
+
+.yellowtype {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.button2 {
+    text-decoration: none;
+    padding: 8px 24px 8px 24px;
+    width:120px;
+    background-color: #000000;
+    color: #FFc900;
+    font-family:Inter,sans-serif;
+    font-weight:500;
+    font-size:24px;
+    margin: 16px 0;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color:#000000;
+    color:#FFFFFF;
+    height: 340px;
+    padding: 90px 120px;
+    justify-content: space-between;
+}
+
+.zenin {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.copyright {
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.info {
+    display:flex;
+    gap: 48px;
+}
+
+.about, .quick, .social {
+    line-height:30px;
+}
+
+.foottext {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
