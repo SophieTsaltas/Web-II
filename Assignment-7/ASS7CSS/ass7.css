@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation Bar*/
+
+.navigation {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    justify-content: space-between;
+}
+
+.navsections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.portfolionav {
+    width: 250px;
+    height: 50px;
+}
+
+.aboutnav {
+    width: 250px;
+    height: 50px;
+}
+
+/*Portfolio*/
+
+.portfolio {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+}
+
+.sectionone {
+    width: 420px;
+    height: 450px;
+}
+
+.one {
+    width: 400px;
+    height: 400px;
+    background-image: url(../ASS7ASSETS/CanMockupsOneZero.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sectiontwo {
+    width: 420px;
+    height: 450px;
+}
+
+.two {
+    width: 400px;
+    height: 400px;
+    background-image: url(../ASS7ASSETS/Byo-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sectionthree {
+    width: 420px;
+    height: 450px;
+}
+
+.three {
+    width: 400px;
+    height: 400px;
+    background-image: url(../ASS7ASSETS/Glow%20Skincare-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*About Me*/
+
+.about {
+    height: 600px;
+    display: flex;
+    font-family: Inter, sans-serif;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 1220px;
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 431px;
+    height: 290px;
+}
+
+.portrait {
+    width: 700px;
+    height: 350px;
+    background-image: url(../ASS7ASSETS/IMG_4976.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+/* Mobile View*/
+@media only screen and (max-width: 768px) {
+    /*Navigation Bar*/
+    .navigation {
+        font-size: 36px;
+    }
+    .navsections {
+        font-size: 20px;
+    }
+    .portfolionav {
+        width: 150px;
+    }
+    .aboutnav {
+        width: 150px;
+    }
+    
+    /*Portfolio*/
+    .portfolio {
+        flex-direction: column;
+        height: 1400px;
+    }
+    
+    /*About Me*/
+    
+    .about {
+    height: 735px;
+    }
+    .inner-container {
+        height: 735px;
+        flex-direction: column-reverse;
+        justify-content: left;
+    }
+}
